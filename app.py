@@ -9,7 +9,6 @@ app.config.from_object(__name__)
 # create a RestAPI container
 api = RestAPI(app)
 
-
 api.register(User)      # /api/user/
 api.register(Activity)  # /api/activity/
 api.register(Expense)   # /api/expense/
